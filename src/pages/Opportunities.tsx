@@ -1,5 +1,5 @@
 import { useRef, useState, type ChangeEvent } from "react"
-import { ArrowLeft, ArrowRight, AudioLines, Check, CheckCircle2, Clock3, ImagePlus, MapPin, Package, ShieldCheck, Sparkles, Upload, X } from "lucide-react"
+import { ArrowLeft, ArrowRight, AudioLines, Check, CheckCircle2, ChevronRight, Clock3, ImagePlus, MapPin, Package, ShieldCheck, Sparkles, Upload, X } from "lucide-react"
 
 type ReportKind = "lost" | "found"
 type Stage = "report" | "match" | "verify" | "claimed" | "submitted"
